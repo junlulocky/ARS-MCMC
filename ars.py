@@ -154,20 +154,3 @@ class ARS():
 
         return [xt,i]
 
-    # def plotHull(self):
-    #     '''
-    #     Plot the piecewise linear hull using matplotlib
-    #     '''
-    #     xpoints = self.z
-    #     #ypoints = np.hstack([0,np.diff(self.z)*self.hprime])
-    #     ypoints = np.exp(self.u)
-    #     plt.plot(xpoints,ypoints)
-    #     plt.show()
-    #     '''
-    #     for i in range(1,self.z.__len__()):
-    #         x1 = self.z[i]
-    #         y1 = 0
-    #         x2 = self.z[i+1]
-    #         y2 = self.z[i+1]-self.z[i] * hprime[i]
-    #     '''
-    #
